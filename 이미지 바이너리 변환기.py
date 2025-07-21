@@ -1,7 +1,7 @@
 from PIL import Image
 
 # 이미지 열기 및 변환
-img = Image.open("ram.png")  # 너가 업로드한 이미지 이름
+img = Image.open("img\\잭슨.jpg")  # 너가 업로드한 이미지 이름
 img = img.convert("1")  # 1bit 흑백화
 img = img.resize((128, 64))  # OLED 사이즈로 맞춤
 
